@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Nov 29 16:22:51 2019" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="demosaic" PACKAGE="clg400" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/Demosaic_calG_RB_0" HWVERSION="1.0" INSTANCE="Demosaic_calG_RB_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Demosaic_calG_RB" VLNV="xilinx.com:module_ref:Demosaic_calG_RB:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Cols" VALUE="512"/>
+        <PARAMETER NAME="Lines" VALUE="768"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_Demosaic_calG_RB_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="INCLK" SIGIS="undef" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RSTN" SIGIS="rst" SIGNAME="tb_calG_RB_0_RSTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="RSTN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IN_EN" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_O_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="O_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="UU" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_UU">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="UU"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="UPDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_UPDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="UPDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="MID" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_MID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="MID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DOWNDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_DOWNDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DOWNDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DD" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_DD">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DD"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="LEFTDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_LEFTDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="LEFTDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="LL" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_LL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="LL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="RR" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_RR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="RR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="RIGHTDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_RIGHTDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="RIGHTDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="O_EN" SIGIS="undef" SIGNAME="Demosaic_calG_RB_0_O_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_tb_writeG_RB_0" PORT="IN_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="23" NAME="O_DATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_calG_RB_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_tb_writeG_RB_0" PORT="DATA"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Demosaic_getBayer_0" HWVERSION="1.0" INSTANCE="Demosaic_getBayer_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Demosaic_getBayer" VLNV="xilinx.com:module_ref:Demosaic_getBayer:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Cols" VALUE="512"/>
+        <PARAMETER NAME="Lines" VALUE="768"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_Demosaic_getBayer_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="PCLK" SIGIS="undef" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RSTN" SIGIS="rst" SIGNAME="tb_calG_RB_0_RSTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="RSTN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="VSYNC" SIGIS="undef" SIGNAME="tb_calG_RB_0_VSYNC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="VSYNC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="HSYNC" SIGIS="undef" SIGNAME="tb_calG_RB_0_HSYNC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="HSYNC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="BAYERDATA" RIGHT="0" SIGIS="undef" SIGNAME="tb_calG_RB_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="O_DATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CAL_EN" SIGIS="undef" SIGNAME="Demosaic_getBayer_0_CAL_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="O_DATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_getBayer_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_3" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Demosaic_pre_G_RB_0" HWVERSION="1.0" INSTANCE="Demosaic_pre_G_RB_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Demosaic_pre_G_RB" VLNV="xilinx.com:module_ref:Demosaic_pre_G_RB:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Lines" VALUE="788"/>
+        <PARAMETER NAME="Cols" VALUE="532"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_Demosaic_pre_G_RB_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="INCLK" SIGIS="undef" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RSTN" SIGIS="rst" SIGNAME="tb_calG_RB_0_RSTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="RSTN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="DATA_EN" SIGIS="undef" SIGNAME="Demosaic_getBayer_0_CAL_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="CAL_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="HSYNC" SIGIS="undef" SIGNAME="tb_calG_RB_0_HSYNC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="HSYNC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DATA1" RIGHT="0" SIGIS="undef" SIGNAME="c_shift_ram_6_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_6" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DATA2" RIGHT="0" SIGIS="undef" SIGNAME="c_shift_ram_7_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_7" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DATA3" RIGHT="0" SIGIS="undef" SIGNAME="c_shift_ram_8_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_8" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DATA4" RIGHT="0" SIGIS="undef" SIGNAME="c_shift_ram_9_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_9" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="DATA5" RIGHT="0" SIGIS="undef" SIGNAME="c_shift_ram_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="UU" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_UU">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="UU"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="UPDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_UPDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="UPDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="MID" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_MID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="MID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="DOWNDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_DOWNDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="DOWNDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="DD" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_DD">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="DD"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="LEFTDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_LEFTDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="LEFTDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="LL" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_LL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="LL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="RR" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_RR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="RR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="RIGHTDATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_RIGHTDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="RIGHTDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="O_EN" SIGIS="undef" SIGNAME="Demosaic_pre_G_RB_0_O_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="IN_EN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Demosaic_tb_writeG_RB_0" HWVERSION="1.0" INSTANCE="Demosaic_tb_writeG_RB_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Demosaic_tb_writeG_RB" VLNV="xilinx.com:module_ref:Demosaic_tb_writeG_RB:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="lengthTotal" VALUE="393216"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_Demosaic_tb_writeG_RB_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="23" NAME="DATA" RIGHT="0" SIGIS="undef" SIGNAME="Demosaic_calG_RB_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="O_DATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IN_EN" SIGIS="undef" SIGNAME="Demosaic_calG_RB_0_O_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="O_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INCLK" SIGIS="undef" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RSTN" SIGIS="rst" SIGNAME="tb_calG_RB_0_RSTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="RSTN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/c_shift_ram_3" HWVERSION="12.0" INSTANCE="c_shift_ram_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_shift_ram" VLNV="xilinx.com:ip:c_shift_ram:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_shift_ram;v=v12_0;d=pg122-c-shift-ram.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_DEPTH" VALUE="512"/>
+        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_SHIFT_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_OPT_GOAL" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="00000000"/>
+        <PARAMETER NAME="C_HAS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_REG_LAST_BIT" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_PRIORITY" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
+        <PARAMETER NAME="C_PARSER_TYPE" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_c_shift_ram_3_0"/>
+        <PARAMETER NAME="ShiftRegType" VALUE="Fixed_Length"/>
+        <PARAMETER NAME="OptGoal" VALUE="Resources"/>
+        <PARAMETER NAME="RegLastBit" VALUE="true"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="Width" VALUE="8"/>
+        <PARAMETER NAME="Depth" VALUE="512"/>
+        <PARAMETER NAME="DefaultDataRadix" VALUE="2"/>
+        <PARAMETER NAME="DefaultData" VALUE="00000000"/>
+        <PARAMETER NAME="ReadMifFile" VALUE="false"/>
+        <PARAMETER NAME="MemInitFile" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="AsyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="AsyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="SyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="CEPriority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="D" RIGHT="0" SIGIS="data" SIGNAME="Demosaic_getBayer_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="O_DATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_9" PORT="D"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/c_shift_ram_6" HWVERSION="12.0" INSTANCE="c_shift_ram_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_shift_ram" VLNV="xilinx.com:ip:c_shift_ram:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_shift_ram;v=v12_0;d=pg122-c-shift-ram.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_DEPTH" VALUE="512"/>
+        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_SHIFT_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_OPT_GOAL" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="00000000"/>
+        <PARAMETER NAME="C_HAS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_REG_LAST_BIT" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_PRIORITY" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
+        <PARAMETER NAME="C_PARSER_TYPE" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_c_shift_ram_3_1"/>
+        <PARAMETER NAME="ShiftRegType" VALUE="Fixed_Length"/>
+        <PARAMETER NAME="OptGoal" VALUE="Resources"/>
+        <PARAMETER NAME="RegLastBit" VALUE="true"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="Width" VALUE="8"/>
+        <PARAMETER NAME="Depth" VALUE="512"/>
+        <PARAMETER NAME="DefaultDataRadix" VALUE="2"/>
+        <PARAMETER NAME="DefaultData" VALUE="00000000"/>
+        <PARAMETER NAME="ReadMifFile" VALUE="false"/>
+        <PARAMETER NAME="MemInitFile" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="AsyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="AsyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="SyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="CEPriority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="D" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_7_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_7" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_6_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/c_shift_ram_7" HWVERSION="12.0" INSTANCE="c_shift_ram_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_shift_ram" VLNV="xilinx.com:ip:c_shift_ram:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_shift_ram;v=v12_0;d=pg122-c-shift-ram.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_DEPTH" VALUE="512"/>
+        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_SHIFT_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_OPT_GOAL" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="00000000"/>
+        <PARAMETER NAME="C_HAS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_REG_LAST_BIT" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_PRIORITY" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
+        <PARAMETER NAME="C_PARSER_TYPE" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_c_shift_ram_3_2"/>
+        <PARAMETER NAME="ShiftRegType" VALUE="Fixed_Length"/>
+        <PARAMETER NAME="OptGoal" VALUE="Resources"/>
+        <PARAMETER NAME="RegLastBit" VALUE="true"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="Width" VALUE="8"/>
+        <PARAMETER NAME="Depth" VALUE="512"/>
+        <PARAMETER NAME="DefaultDataRadix" VALUE="2"/>
+        <PARAMETER NAME="DefaultData" VALUE="00000000"/>
+        <PARAMETER NAME="ReadMifFile" VALUE="false"/>
+        <PARAMETER NAME="MemInitFile" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="AsyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="AsyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="SyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="CEPriority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="D" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_8_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_8" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_7_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_6" PORT="D"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/c_shift_ram_8" HWVERSION="12.0" INSTANCE="c_shift_ram_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_shift_ram" VLNV="xilinx.com:ip:c_shift_ram:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_shift_ram;v=v12_0;d=pg122-c-shift-ram.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_DEPTH" VALUE="512"/>
+        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_SHIFT_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_OPT_GOAL" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="00000000"/>
+        <PARAMETER NAME="C_HAS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_REG_LAST_BIT" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_PRIORITY" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
+        <PARAMETER NAME="C_PARSER_TYPE" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_c_shift_ram_3_3"/>
+        <PARAMETER NAME="ShiftRegType" VALUE="Fixed_Length"/>
+        <PARAMETER NAME="OptGoal" VALUE="Resources"/>
+        <PARAMETER NAME="RegLastBit" VALUE="true"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="Width" VALUE="8"/>
+        <PARAMETER NAME="Depth" VALUE="512"/>
+        <PARAMETER NAME="DefaultDataRadix" VALUE="2"/>
+        <PARAMETER NAME="DefaultData" VALUE="00000000"/>
+        <PARAMETER NAME="ReadMifFile" VALUE="false"/>
+        <PARAMETER NAME="MemInitFile" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="AsyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="AsyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="SyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="CEPriority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="D" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_9_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_9" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_8_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_7" PORT="D"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/c_shift_ram_9" HWVERSION="12.0" INSTANCE="c_shift_ram_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_shift_ram" VLNV="xilinx.com:ip:c_shift_ram:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_shift_ram;v=v12_0;d=pg122-c-shift-ram.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_DEPTH" VALUE="512"/>
+        <PARAMETER NAME="C_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_SHIFT_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_OPT_GOAL" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="00000000"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="00000000"/>
+        <PARAMETER NAME="C_HAS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_REG_LAST_BIT" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_PRIORITY" VALUE="1"/>
+        <PARAMETER NAME="C_SYNC_ENABLE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_INIT_FILE" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_READ_MIF" VALUE="0"/>
+        <PARAMETER NAME="C_PARSER_TYPE" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_c_shift_ram_3_4"/>
+        <PARAMETER NAME="ShiftRegType" VALUE="Fixed_Length"/>
+        <PARAMETER NAME="OptGoal" VALUE="Resources"/>
+        <PARAMETER NAME="RegLastBit" VALUE="true"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="Width" VALUE="8"/>
+        <PARAMETER NAME="Depth" VALUE="512"/>
+        <PARAMETER NAME="DefaultDataRadix" VALUE="2"/>
+        <PARAMETER NAME="DefaultData" VALUE="00000000"/>
+        <PARAMETER NAME="ReadMifFile" VALUE="false"/>
+        <PARAMETER NAME="MemInitFile" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="AsyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="AsyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SyncInitRadix" VALUE="2"/>
+        <PARAMETER NAME="SyncInitVal" VALUE="00000000"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="CEPriority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="D" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tb_calG_RB_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_shift_ram_9_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_8" PORT="D"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="DATA4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/tb_calG_RB_0" HWVERSION="1.0" INSTANCE="tb_calG_RB_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="tb_calG_RB" VLNV="xilinx.com:module_ref:tb_calG_RB:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="lengthTotal" VALUE="393216"/>
+        <PARAMETER NAME="vblank_length" VALUE="49"/>
+        <PARAMETER NAME="hblank_length" VALUE="19"/>
+        <PARAMETER NAME="Lines" VALUE="768"/>
+        <PARAMETER NAME="Cols" VALUE="512"/>
+        <PARAMETER NAME="Component_Name" VALUE="demosaic_tb_calG_RB_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="O" NAME="CLK" SIGIS="clk" SIGNAME="tb_calG_RB_0_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_shift_ram_6" PORT="CLK"/>
+            <CONNECTION INSTANCE="c_shift_ram_7" PORT="CLK"/>
+            <CONNECTION INSTANCE="c_shift_ram_8" PORT="CLK"/>
+            <CONNECTION INSTANCE="c_shift_ram_9" PORT="CLK"/>
+            <CONNECTION INSTANCE="c_shift_ram_3" PORT="CLK"/>
+            <CONNECTION INSTANCE="Demosaic_tb_writeG_RB_0" PORT="INCLK"/>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="PCLK"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="INCLK"/>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="INCLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RSTN" SIGIS="rst" SIGNAME="tb_calG_RB_0_RSTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_tb_writeG_RB_0" PORT="RSTN"/>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="RSTN"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="RSTN"/>
+            <CONNECTION INSTANCE="Demosaic_calG_RB_0" PORT="RSTN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="HSYNC" SIGIS="undef" SIGNAME="tb_calG_RB_0_HSYNC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="HSYNC"/>
+            <CONNECTION INSTANCE="Demosaic_pre_G_RB_0" PORT="HSYNC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="VSYNC" SIGIS="undef" SIGNAME="tb_calG_RB_0_VSYNC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="VSYNC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="O_DATA" RIGHT="0" SIGIS="undef" SIGNAME="tb_calG_RB_0_O_DATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Demosaic_getBayer_0" PORT="BAYERDATA"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

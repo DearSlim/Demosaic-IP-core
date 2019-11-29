@@ -1,0 +1,40 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e1157ae8547f47c8bfcf1189781d8b52 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_8 -L c_reg_fd_v12_0_4 -L c_mux_bit_v12_0_4 -L c_shift_ram_v12_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot demosaic_wrapper_behav xil_defaultlib.demosaic_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_8.xbip_utils_v3_0_8_pkg
+Compiling package c_shift_ram_v12_0_11.c_shift_ram_v12_0_11_viv_comp
+Compiling package c_shift_ram_v12_0_11.c_shift_ram_v12_0_11_pkg
+Compiling package c_mux_bit_v12_0_4.c_mux_bit_v12_0_4_viv_comp
+Compiling package c_reg_fd_v12_0_4.c_reg_fd_v12_0_4_viv_comp
+Compiling module xil_defaultlib.Demosaic_calG_RB
+Compiling module xil_defaultlib.demosaic_Demosaic_calG_RB_0_0
+Compiling module xil_defaultlib.Demosaic_getBayer
+Compiling module xil_defaultlib.demosaic_Demosaic_getBayer_0_0
+Compiling module xil_defaultlib.Demosaic_pre_G_RB(Cols=532)
+Compiling module xil_defaultlib.demosaic_Demosaic_pre_G_RB_0_0
+Compiling module xil_defaultlib.Demosaic_tb_writeG_RB
+Compiling module xil_defaultlib.demosaic_Demosaic_tb_writeG_RB_0...
+Compiling architecture struct of entity c_shift_ram_v12_0_11.c_shift_ram_v12_0_11_legacy [\c_shift_ram_v12_0_11_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_11.c_shift_ram_v12_0_11_viv [\c_shift_ram_v12_0_11_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_11.c_shift_ram_v12_0_11 [\c_shift_ram_v12_0_11(c_xdevicef...]
+Compiling architecture demosaic_c_shift_ram_3_0_arch of entity xil_defaultlib.demosaic_c_shift_ram_3_0 [demosaic_c_shift_ram_3_0_default]
+Compiling architecture demosaic_c_shift_ram_3_1_arch of entity xil_defaultlib.demosaic_c_shift_ram_3_1 [demosaic_c_shift_ram_3_1_default]
+Compiling architecture demosaic_c_shift_ram_3_2_arch of entity xil_defaultlib.demosaic_c_shift_ram_3_2 [demosaic_c_shift_ram_3_2_default]
+Compiling architecture demosaic_c_shift_ram_3_3_arch of entity xil_defaultlib.demosaic_c_shift_ram_3_3 [demosaic_c_shift_ram_3_3_default]
+Compiling architecture demosaic_c_shift_ram_3_4_arch of entity xil_defaultlib.demosaic_c_shift_ram_3_4 [demosaic_c_shift_ram_3_4_default]
+Compiling module xil_defaultlib.tb_calG_RB
+Compiling module xil_defaultlib.demosaic_tb_calG_RB_0_0
+Compiling module xil_defaultlib.demosaic
+Compiling module xil_defaultlib.demosaic_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot demosaic_wrapper_behav

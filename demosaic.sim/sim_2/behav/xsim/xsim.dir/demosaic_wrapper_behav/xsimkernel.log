@@ -1,0 +1,7 @@
+Running: xsim.dir/demosaic_wrapper_behav/xsimk.exe -simmode gui -wdb demosaic_wrapper_behav.wdb -simrunnum 0 -socket 54506
+Design successfully loaded
+Design Loading Memory Usage: 7488 KB (Peak: 7488 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 16476 KB (Peak: 16476 KB)
+Simulation CPU Usage: 4156 ms

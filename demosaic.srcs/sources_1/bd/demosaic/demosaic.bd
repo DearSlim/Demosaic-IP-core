@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x0" bd:device="xc7z020clg400-2" bd:synthFlowMode="None" bd:tool_version="2017.4" bd:top="demosaic" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>demosaic</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="demosaic_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>demosaic_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_shift_ram_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_shift_ram" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_c_shift_ram_3_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Width">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DefaultData">00000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AsyncInitVal">00000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_shift_ram_6</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_shift_ram" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_c_shift_ram_3_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Width">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DefaultData">00000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AsyncInitVal">00000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_shift_ram_7</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_shift_ram" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_c_shift_ram_3_2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Width">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DefaultData">00000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AsyncInitVal">00000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_shift_ram_8</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_shift_ram" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_c_shift_ram_3_3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Width">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DefaultData">00000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AsyncInitVal">00000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>c_shift_ram_9</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="c_shift_ram" spirit:vendor="xilinx.com" spirit:version="12.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_c_shift_ram_3_4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Width">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Depth">512</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DefaultData">00000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="AsyncInitVal">00000000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Demosaic_tb_writeG_RB_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="Demosaic_tb_writeG_RB" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_Demosaic_tb_writeG_RB_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">Demosaic_tb_writeG_RB</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>tb_calG_RB_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="tb_calG_RB" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_tb_calG_RB_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">tb_calG_RB</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Demosaic_getBayer_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="Demosaic_getBayer" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_Demosaic_getBayer_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">Demosaic_getBayer</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Demosaic_pre_G_RB_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="Demosaic_pre_G_RB" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_Demosaic_pre_G_RB_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Cols">532</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">Demosaic_pre_G_RB</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Demosaic_calG_RB_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="Demosaic_calG_RB" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">demosaic_Demosaic_calG_RB_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">Demosaic_calG_RB</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>tb_calG_RB_0_HSYNC</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="tb_calG_RB_0" spirit:portRef="HSYNC"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="HSYNC"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="HSYNC"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>tb_calG_RB_0_VSYNC</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="tb_calG_RB_0" spirit:portRef="VSYNC"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="VSYNC"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>tb_calG_RB_0_O_DATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="tb_calG_RB_0" spirit:portRef="O_DATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="BAYERDATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>tb_calG_RB_0_CLK</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="tb_calG_RB_0" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_6" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_7" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_8" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_9" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_3" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_tb_writeG_RB_0" spirit:portRef="INCLK"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="PCLK"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="INCLK"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="INCLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_calG_RB_0_O_DATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="O_DATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_tb_writeG_RB_0" spirit:portRef="DATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_UU</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="UU"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="UU"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_UPDATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="UPDATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="UPDATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_MID</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="MID"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="MID"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_DOWNDATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DOWNDATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="DOWNDATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_DD</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DD"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="DD"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_LEFTDATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="LEFTDATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="LEFTDATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_LL</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="LL"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="LL"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_RR</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="RR"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="RR"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_RIGHTDATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="RIGHTDATA"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="RIGHTDATA"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_pre_G_RB_0_O_EN</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="O_EN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="IN_EN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_calG_RB_0_O_EN</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="O_EN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_tb_writeG_RB_0" spirit:portRef="IN_EN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>tb_calG_RB_0_RSTN</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="tb_calG_RB_0" spirit:portRef="RSTN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_tb_writeG_RB_0" spirit:portRef="RSTN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="RSTN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="RSTN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_calG_RB_0" spirit:portRef="RSTN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_getBayer_0_CAL_EN</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="CAL_EN"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA_EN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Demosaic_getBayer_0_O_DATA</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_getBayer_0" spirit:portRef="O_DATA"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_3" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_shift_ram_3_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_3" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_9" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA5"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_shift_ram_9_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_9" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_8" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA4"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_shift_ram_8_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_8" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_7" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_shift_ram_7_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_7" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_6" spirit:portRef="D"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>c_shift_ram_6_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="c_shift_ram_6" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="Demosaic_pre_G_RB_0" spirit:portRef="DATA1"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

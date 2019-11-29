@@ -1,0 +1,1842 @@
+==============================================================================
+Library 'axi_ahblite_bridge_v3_0_13' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:46:16 on Nov 28,2019
+vcom -64 -93 -work axi_ahblite_bridge_v3_0_13 -f C:\Users\Administrator\Desktop\wjg/axi_ahblite_bridge_v3_0_13/.cxl.vhdl.axi_ahblite_bridge_v3_0_13.axi_ahblite_bridge_v3_0_13.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity time_out
+-- Compiling architecture RTL of time_out
+-- Loading entity counter_f
+-- Compiling entity ahb_skid_buf
+-- Compiling architecture implementation of ahb_skid_buf
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ahblite_bridge_v3_0\hdl\axi_ahblite_bridge_v3_0_vh_rfs.vhd(1090): VHDL Compiler exiting
+End time: 13:46:16 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_lite_ipif_v3_0_4' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:46:34 on Nov 28,2019
+vcom -64 -93 -work axi_lite_ipif_v3_0_4 -f C:\Users\Administrator\Desktop\wjg/axi_lite_ipif_v3_0_4/.cxl.vhdl.axi_lite_ipif_v3_0_4.axi_lite_ipif_v3_0_4.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package ipif_pkg
+-- Compiling package body ipif_pkg
+-- Loading package ipif_pkg
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Loading package ipif_pkg
+-- Compiling entity address_decoder
+-- Compiling architecture IMP of address_decoder
+-- Loading entity pselect_f
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_lite_ipif_v3_0\hdl\axi_lite_ipif_v3_0_vh_rfs.vhd(2268): VHDL Compiler exiting
+End time: 13:46:34 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'emc_common_v3_0_5' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:47:24 on Nov 28,2019
+vcom -64 -93 -work emc_common_v3_0_5 -f C:\Users\Administrator\Desktop\wjg/emc_common_v3_0_5/.cxl.vhdl.emc_common_v3_0_5.emc_common_v3_0_5.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ld_arith_reg
+-- Loading package NUMERIC_STD
+-- Compiling architecture imp of ld_arith_reg
+-- Loading package std_logic_arith
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\emc_common_v3_0\hdl\emc_common_v3_0_vh_rfs.vhd(522): VHDL Compiler exiting
+End time: 13:47:25 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'fifo_generator_v13_0_6' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:47:33 on Nov 28,2019
+vcom -64 -93 -work fifo_generator_v13_0_6 -f C:\Users\Administrator\Desktop\wjg/fifo_generator_v13_0_6/.cxl.vhdl.fifo_generator_v13_0_6.fifo_generator_v13_0_6.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fifo_generator_v13_0_6_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v13_0_6_bhv_as
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\fifo_generator_v13_0\simulation\fifo_generator_vhdl_beh.vhd(1999): VHDL Compiler exiting
+End time: 13:47:33 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'fifo_generator_v13_1_4' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:47:36 on Nov 28,2019
+vcom -64 -93 -work fifo_generator_v13_1_4 -f C:\Users\Administrator\Desktop\wjg/fifo_generator_v13_1_4/.cxl.vhdl.fifo_generator_v13_1_4.fifo_generator_v13_1_4.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\fifo_generator_v13_1\hdl\fifo_generator_v13_1_rfs.vhd(134): VHDL Compiler exiting
+End time: 13:47:37 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'fifo_generator_v13_2_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:47:43 on Nov 28,2019
+vcom -64 -93 -work fifo_generator_v13_2_1 -f C:\Users\Administrator\Desktop\wjg/fifo_generator_v13_2_1/.cxl.vhdl.fifo_generator_v13_2_1.fifo_generator_v13_2_1.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\fifo_generator_v13_2\hdl\fifo_generator_v13_2_rfs.vhd(134): VHDL Compiler exiting
+End time: 13:47:43 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'lib_cdc_v1_0_2' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:48:56 on Nov 28,2019
+vcom -64 -93 -work lib_cdc_v1_0_2 -f C:\Users\Administrator\Desktop\wjg/lib_cdc_v1_0_2/.cxl.vhdl.lib_cdc_v1_0_2.lib_cdc_v1_0_2.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\lib_cdc_v1_0\hdl\lib_cdc_v1_0_rfs.vhd(64): VHDL Compiler exiting
+End time: 13:48:56 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'pc_cfr_v6_0_6' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:50:15 on Nov 28,2019
+vcom -64 -93 -work pc_cfr_v6_0_6 -f C:\Users\Administrator\Desktop\wjg/pc_cfr_v6_0_6/.cxl.vhdl.pc_cfr_v6_0_6.pc_cfr_v6_0_6.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\pc_cfr_v6_0\hdl\pc_cfr_v6_0_vh_rfs.vhd(30628): VHDL Compiler exiting
+End time: 13:50:16 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'pc_cfr_v6_1_2' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:50:18 on Nov 28,2019
+vcom -64 -93 -work pc_cfr_v6_1_2 -f C:\Users\Administrator\Desktop\wjg/pc_cfr_v6_1_2/.cxl.vhdl.pc_cfr_v6_1_2.pc_cfr_v6_1_2.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\pc_cfr_v6_1\hdl\pc_cfr_v6_1_vh_rfs.vhd(32427): VHDL Compiler exiting
+End time: 13:50:19 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'pl4_v13_0_11' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:50:21 on Nov 28,2019
+vcom -64 -93 -work pl4_v13_0_11 -f C:\Users\Administrator\Desktop\wjg/pl4_v13_0_11/.cxl.vhdl.pl4_v13_0_11.pl4_v13_0_11.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\pl4_v13_0\hdl\pl4_v13_0_vh_rfs.vhd(175): VHDL Compiler exiting
+End time: 13:50:21 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'vid_edid_v1_0_0' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:51:35 on Nov 28,2019
+vcom -64 -93 -work vid_edid_v1_0_0 -f C:\Users\Administrator\Desktop\wjg/vid_edid_v1_0_0/.cxl.vhdl.vid_edid_v1_0_0.vid_edid_v1_0_0.nt64.cmf 
+-- Loading package STANDARD
+-- Compiling package vid_edid_v1_0_0_family_support
+-- Compiling package body vid_edid_v1_0_0_family_support
+-- Loading package vid_edid_v1_0_0_family_support
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package vid_edid_v1_0_0_family_support
+-- Compiling entity vid_edid_v1_0_0_pselect_f
+-- Compiling architecture imp of vid_edid_v1_0_0_pselect_f
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package vid_edid_v1_0_0_proc_common_pkg
+-- Compiling package body vid_edid_v1_0_0_proc_common_pkg
+-- Loading package vid_edid_v1_0_0_proc_common_pkg
+-- Loading package NUMERIC_STD
+-- Compiling entity vid_edid_v1_0_0_counter_f
+-- Compiling architecture imp of vid_edid_v1_0_0_counter_f
+-- Compiling package vid_edid_v1_0_0_common_pkg
+-- Compiling package body vid_edid_v1_0_0_common_pkg
+-- Loading package vid_edid_v1_0_0_common_pkg
+-- Compiling entity vid_edid_v1_0_0_multiplexor
+-- Compiling architecture RTL of vid_edid_v1_0_0_multiplexor
+-- Loading package vid_edid_v1_0_0_proc_common_pkg
+-- Compiling entity vid_edid_v1_0_0_axilite_sif
+-- Compiling architecture RTL of vid_edid_v1_0_0_axilite_sif
+-- Compiling entity vid_edid_v1_0_0_apb_mif
+-- Compiling architecture RTL of vid_edid_v1_0_0_apb_mif
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\vid_edid_v1_0\hdl\vid_edid_v1_0_rfs.vhd(10575): VHDL Compiler exiting
+End time: 13:51:35 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'xdma_v4_0_1' compilation error(s)
+==============================================================================
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:53:17 on Nov 28,2019
+vlog -64 -L xdma_v4_0_1 "+incdir+C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl" -sv -work xdma_v4_0_1 -f C:\Users\Administrator\Desktop\wjg/xdma_v4_0_1/.cxl.systemverilog.xdma_v4_0_1.xdma_v4_0_1.nt64.cmf 
+** Warning: C:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/hdl/xdma_v4_0_vl_rfs.sv(64): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/hdl/xdma_v4_0_vl_rfs.sv(64): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/hdl/xdma_v4_0_vl_rfs.sv(64): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/hdl/xdma_v4_0_vl_rfs.sv(64): (vlog-2600) <protected>
+** Warning: C:/Xilinx/Vivado/2017.4/data/ip/xilinx/xdma_v4_0/hdl/xdma_v4_0_vl_rfs.sv(64): (vlog-2600) <protected>
+-- Compiling package xdma_v4_0_vl_rfs_sv_unit
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/xdma_axi4mm_axi_bridge.vh(204): syntax error, unexpected "SystemVerilog keyword 'endpackage'", expecting class.
+-- Compiling interface dma_pcie_axis_cc_if
+-- Compiling interface dma_pcie_axis_cq_if
+-- Compiling interface dma_pcie_axis_rc_if
+-- Compiling interface dma_pcie_axis_rq_if
+-- Compiling interface dma_pcie_c2h_crdt_if
+-- Compiling interface dma_pcie_dsc_in_if
+** Error: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_dsc_in_if.svh(6): 'dma_dsc_in_crd_t' is an unknown type.
+Or did you omit the '()' for an instantiation?
+** Error: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_dsc_in_if.svh(7): 'dma_dsc_block_t' is an unknown type.
+Or did you omit the '()' for an instantiation?
+-- Compiling interface dma_pcie_dsc_out_if
+** Error: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_dsc_out_if.svh(6): 'dma_dsc_out_crd_t' is an unknown type.
+Or did you omit the '()' for an instantiation?
+** Error: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_dsc_out_if.svh(7): 'dma_dsc_block_t' is an unknown type.
+Or did you omit the '()' for an instantiation?
+-- Compiling interface dma_pcie_fabric_input_if
+-- Compiling interface dma_pcie_fabric_output_if
+-- Compiling interface dma_pcie_gic_if
+-- Compiling interface dma_pcie_h2c_crdt_if
+-- Compiling interface dma_pcie_mi_16Bx2048_4Bwe_ram_if
+-- Compiling interface dma_pcie_mi_2Bx2048_ram_if
+-- Compiling interface dma_pcie_mi_4Bx2048_4Bwe_ram_if
+-- Compiling interface dma_pcie_mi_64Bx128_32Bwe_ram_if
+-- Compiling interface dma_pcie_mi_64Bx256_32Bwe_ram_if
+-- Compiling interface dma_pcie_mi_64Bx512_32Bwe_ram_if
+-- Compiling interface dma_pcie_mi_8Bx2048_4Bwe_ram_if
+-- Compiling interface dma_pcie_mi_dsc_cpld_if
+-- Compiling interface dma_pcie_mi_dsc_cpli_if
+-- Compiling interface dma_pcie_misc_input_if
+-- Compiling interface dma_pcie_misc_output_if
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/dma_pcie_misc_output_if.svh(157): syntax error in protected region.
+
+-- Compiling module xdma_v4_0_1_BufferMem
+-- Compiling module xdma_v4_0_1_GenericFIFO1R2W
+-- Compiling module xdma_v4_0_1_GenericFIFO
+-- Compiling module xdma_v4_0_1_GenericFIFOAsyncNoHead
+-- Compiling module xdma_v4_0_1_GenericFIFOAsync
+-- Compiling module xdma_v4_0_1_GenericFIFOHead
+-- Compiling module xdma_v4_0_1_GenericFIFOHead2
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2600) <protected>
+** Warning: C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): (vlog-2600) <protected>
+** Error: (vlog-13069) C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl/axidma_fifo.vh(1123): syntax error in protected region.
+
+End time: 13:53:18 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 54, Warnings: 62
+
+==============================================================================
+Library 'lib_fifo_v1_0_10' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:53:53 on Nov 28,2019
+vcom -64 -93 -work lib_fifo_v1_0_10 -f C:\Users\Administrator\Desktop\wjg/lib_fifo_v1_0_10/.cxl.vhdl.lib_fifo_v1_0_10.lib_fifo_v1_0_10.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package VCOMPONENTS
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\lib_fifo_v1_0\hdl\lib_fifo_v1_0_rfs.vhd(203): VHDL Compiler exiting
+End time: 13:53:53 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_datamover_v5_1_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:53:56 on Nov 28,2019
+vcom -64 -93 -work axi_datamover_v5_1_17 -f C:\Users\Administrator\Desktop\wjg/axi_datamover_v5_1_17/.cxl.vhdl.axi_datamover_v5_1_17.axi_datamover_v5_1_17.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity axi_datamover_reset
+-- Compiling architecture implementation of axi_datamover_reset
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(354): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(354): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(434): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(434): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(516): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(516): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(744): VHDL Compiler exiting
+End time: 13:53:56 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 10, Warnings: 1
+
+==============================================================================
+Library 'v_tc_v6_1_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:54:08 on Nov 28,2019
+vcom -64 -93 -work v_tc_v6_1_12 -f C:\Users\Administrator\Desktop\wjg/v_tc_v6_1_12/.cxl.vhdl.v_tc_v6_1_12.v_tc_v6_1_12.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_tc_v6_1\hdl\v_tc_v6_1_vh_rfs.vhd(4418): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_tc_v6_1\hdl\v_tc_v6_1_vh_rfs.vhd(4434): VHDL Compiler exiting
+End time: 13:54:09 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 4, Warnings: 1
+
+==============================================================================
+Library 'axis_accelerator_adapter_v2_1_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:54:17 on Nov 28,2019
+vcom -64 -93 -work axis_accelerator_adapter_v2_1_12 -f C:\Users\Administrator\Desktop\wjg/axis_accelerator_adapter_v2_1_12/.cxl.vhdl.axis_accelerator_adapter_v2_1_12.axis_accelerator_adapter_v2_1_12.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axis_accelerator_adapter_v2_1\hdl\axis_accelerator_adapter_v2_1_rfs.vhd(79): VHDL Compiler exiting
+End time: 13:54:17 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_apb_bridge_v3_0_13' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:54:47 on Nov 28,2019
+vcom -64 -93 -work axi_apb_bridge_v3_0_13 -f C:\Users\Administrator\Desktop\wjg/axi_apb_bridge_v3_0_13/.cxl.vhdl.axi_apb_bridge_v3_0_13.axi_apb_bridge_v3_0_13.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading entity pselect_f
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_apb_bridge_v3_0\hdl\axi_apb_bridge_v3_0_vh_rfs.vhd(496): VHDL Compiler exiting
+End time: 13:54:48 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_sg_v4_1_8' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:54:54 on Nov 28,2019
+vcom -64 -93 -work axi_sg_v4_1_8 -f C:\Users\Administrator\Desktop\wjg/axi_sg_v4_1_8/.cxl.vhdl.axi_sg_v4_1_8.axi_sg_v4_1_8.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package axi_sg_pkg
+-- Compiling package body axi_sg_pkg
+-- Loading package axi_sg_pkg
+-- Compiling entity axi_sg_reset
+-- Compiling architecture implementation of axi_sg_reset
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: (vcom-11) Could not find lib_fifo_v1_0_10.sync_fifo_fg.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_sg_v4_1\hdl\axi_sg_v4_1_rfs.vhd(895): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_10.sync_fifo_fg".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_sg_v4_1\hdl\axi_sg_v4_1_rfs.vhd(900): VHDL Compiler exiting
+End time: 13:54:54 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'axi_cdma_v4_1_15' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:54:57 on Nov 28,2019
+vcom -64 -93 -work axi_cdma_v4_1_15 -f C:\Users\Administrator\Desktop\wjg/axi_cdma_v4_1_15/.cxl.vhdl.axi_cdma_v4_1_15.axi_cdma_v4_1_15.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling package axi_cdma_pkg
+-- Compiling package body axi_cdma_pkg
+-- Loading package axi_cdma_pkg
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package axi_cdma_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_cdma_v4_1\hdl\axi_cdma_v4_1_vh_rfs.vhd(374): VHDL Compiler exiting
+End time: 13:54:57 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_dma_v7_1_16' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:12 on Nov 28,2019
+vcom -64 -93 -work axi_dma_v7_1_16 -f C:\Users\Administrator\Desktop\wjg/axi_dma_v7_1_16/.cxl.vhdl.axi_dma_v7_1_16.axi_dma_v7_1_16.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling package axi_dma_pkg
+-- Compiling package body axi_dma_pkg
+-- Loading package axi_dma_pkg
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package axi_dma_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(521): VHDL Compiler exiting
+End time: 13:55:12 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_emc_v3_0_15' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:21 on Nov 28,2019
+vcom -64 -93 -work axi_emc_v3_0_15 -f C:\Users\Administrator\Desktop\wjg/axi_emc_v3_0_15/.cxl.vhdl.axi_emc_v3_0_15.axi_emc_v3_0_15.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package emc_pkg
+-- Compiling package body emc_pkg
+-- Loading package emc_pkg
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_emc_v3_0\hdl\axi_emc_v3_0_vh_rfs.vhd(586): VHDL Compiler exiting
+End time: 13:55:21 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_epc_v2_0_18' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:24 on Nov 28,2019
+vcom -64 -93 -work axi_epc_v2_0_18 -f C:\Users\Administrator\Desktop\wjg/axi_epc_v2_0_18/.cxl.vhdl.axi_epc_v2_0_18.axi_epc_v2_0_18.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ld_arith_reg
+-- Loading package NUMERIC_STD
+-- Compiling architecture imp of ld_arith_reg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling entity async_statemachine
+-- Compiling architecture imp of async_statemachine
+-- Loading entity ld_arith_reg
+-- Compiling entity async_counters
+-- Compiling architecture imp of async_counters
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_epc_v2_0\hdl\axi_epc_v2_0_vh_rfs.vhd(2101): VHDL Compiler exiting
+End time: 13:55:24 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_ethernetlite_v3_0_13' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:30 on Nov 28,2019
+vcom -64 -93 -work axi_ethernetlite_v3_0_13 -f C:\Users\Administrator\Desktop\wjg/axi_ethernetlite_v3_0_13/.cxl.vhdl.axi_ethernetlite_v3_0_13.axi_ethernetlite_v3_0_13.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ld_arith_reg
+-- Loading package NUMERIC_STD
+-- Compiling architecture imp of ld_arith_reg
+-- Compiling entity mux_onehot_f
+-- Compiling architecture imp of mux_onehot_f
+-- Compiling package mac_pkg
+-- Compiling package body mac_pkg
+-- Loading package mac_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mac_pkg
+-- Compiling entity lfsr16
+-- Compiling architecture imp of lfsr16
+-- Compiling entity defer_state
+-- Compiling architecture implementation of defer_state
+-- Compiling entity crcnibshiftreg
+-- Compiling architecture implementation of crcnibshiftreg
+-- Compiling entity cntr5bit
+-- Compiling architecture implementation of cntr5bit
+-- Compiling entity tx_statemachine
+-- Compiling architecture implementation of tx_statemachine
+-- Loading entity cntr5bit
+-- Compiling entity tx_intrfce
+-- Compiling architecture implementation of tx_intrfce
+** Error: (vcom-11) Could not find lib_fifo_v1_0_10.async_fifo_fg.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(3983): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_10.async_fifo_fg".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(3983): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(4053): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(4053): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(4076): VHDL Compiler exiting
+End time: 13:55:30 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 7, Warnings: 1
+
+==============================================================================
+Library 'axi_ethernet_buffer_v2_0_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:33 on Nov 28,2019
+vcom -64 -93 -work axi_ethernet_buffer_v2_0_17 -f C:\Users\Administrator\Desktop\wjg/axi_ethernet_buffer_v2_0_17/.cxl.vhdl.axi_ethernet_buffer_v2_0_17.axi_ethernet_buffer_v2_0_17.nt64.cmf 
+-- Loading package STANDARD
+** Warning: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(3216): Nonresolved signal 'initial_index' may have multiple sources.
+  Drivers:
+    C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(3234):Conditional signal assignment line__3234
+    C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(3239):Conditional signal assignment line__3239
+** Warning: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(5436): Nonresolved signal 'initial_index' may have multiple sources.
+  Drivers:
+    C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(5456):Conditional signal assignment line__5456
+    C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(5461):Conditional signal assignment line__5461
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(32630): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(32630): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_ethernet_buffer_v2_0\hdl\axi_ethernet_buffer_v2_0_rfs.vhd(33291): VHDL Compiler exiting
+End time: 13:55:34 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 3
+
+==============================================================================
+Library 'axi_fifo_mm_s_v4_1_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:36 on Nov 28,2019
+vcom -64 -93 -work axi_fifo_mm_s_v4_1_12 -f C:\Users\Administrator\Desktop\wjg/axi_fifo_mm_s_v4_1_12/.cxl.vhdl.axi_fifo_mm_s_v4_1_12.axi_fifo_mm_s_v4_1_12.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package axi_fifo_mm_s_pkg
+-- Compiling package body axi_fifo_mm_s_pkg
+-- Loading package axi_fifo_mm_s_pkg
+-- Loading package axi_fifo_mm_s_pkg
+-- Compiling entity axi_write_fsm
+-- Compiling architecture axi_write_fsm_arch of axi_write_fsm
+-- Compiling entity axi_write_wrapper
+-- Compiling architecture axi_write_wrap_arch of axi_write_wrapper
+-- Loading entity axi_write_fsm
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_fifo_mm_s_v4_1\hdl\axi_fifo_mm_s_v4_1_rfs.vhd(1277): VHDL Compiler exiting
+End time: 13:55:37 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'interrupt_control_v3_1_4' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:43 on Nov 28,2019
+vcom -64 -93 -work interrupt_control_v3_1_4 -f C:\Users\Administrator\Desktop\wjg/interrupt_control_v3_1_4/.cxl.vhdl.interrupt_control_v3_1_4.interrupt_control_v3_1_4.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\interrupt_control_v3_1\hdl\interrupt_control_v3_1_vh_rfs.vhd(189): VHDL Compiler exiting
+End time: 13:55:43 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_gpio_v2_0_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:46 on Nov 28,2019
+vcom -64 -93 -work axi_gpio_v2_0_17 -f C:\Users\Administrator\Desktop\wjg/axi_gpio_v2_0_17/.cxl.vhdl.axi_gpio_v2_0_17.axi_gpio_v2_0_17.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity GPIO_Core
+-- Compiling architecture IMP of GPIO_Core
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(454): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(454): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(853): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(853): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(887): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(887): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_gpio_v2_0\hdl\axi_gpio_v2_0_vh_rfs.vhd(1074): VHDL Compiler exiting
+End time: 13:55:46 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 10, Warnings: 1
+
+==============================================================================
+Library 'axi_hwicap_v3_0_19' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:49 on Nov 28,2019
+vcom -64 -93 -work axi_hwicap_v3_0_19 -f C:\Users\Administrator\Desktop\wjg/axi_hwicap_v3_0_19/.cxl.vhdl.axi_hwicap_v3_0_19.axi_hwicap_v3_0_19.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: (vcom-11) Could not find lib_fifo_v1_0_10.async_fifo_fg.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_hwicap_v3_0\hdl\axi_hwicap_v3_0_vh_rfs.vhd(87): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_10.async_fifo_fg".
+-- Loading package lib_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_hwicap_v3_0\hdl\axi_hwicap_v3_0_vh_rfs.vhd(143): VHDL Compiler exiting
+End time: 13:55:49 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'axi_iic_v2_0_18' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:52 on Nov 28,2019
+vcom -64 -93 -work axi_iic_v2_0_18 -f C:\Users\Administrator\Desktop\wjg/axi_iic_v2_0_18/.cxl.vhdl.axi_iic_v2_0_18.axi_iic_v2_0_18.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity soft_reset
+-- Compiling architecture implementation of soft_reset
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Loading package std_logic_arith
+-- Compiling entity upcnt_n
+-- Compiling architecture RTL of upcnt_n
+-- Compiling entity shift8
+-- Compiling architecture RTL of shift8
+-- Compiling package iic_pkg
+-- Compiling package body iic_pkg
+-- Loading package iic_pkg
+-- Compiling entity debounce
+-- Compiling architecture RTL of debounce
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_iic_v2_0\hdl\axi_iic_v2_0_vh_rfs.vhd(1332): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_iic_v2_0\hdl\axi_iic_v2_0_vh_rfs.vhd(1332): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_iic_v2_0\hdl\axi_iic_v2_0_vh_rfs.vhd(1406): VHDL Compiler exiting
+End time: 13:55:52 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 4, Warnings: 1
+
+==============================================================================
+Library 'axi_intc_v4_1_10' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:55:55 on Nov 28,2019
+vcom -64 -93 -work axi_intc_v4_1_10 -f C:\Users\Administrator\Desktop\wjg/axi_intc_v4_1_10/.cxl.vhdl.axi_intc_v4_1_10.axi_intc_v4_1_10.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity double_synchronizer
+-- Compiling architecture RTL of double_synchronizer
+-- Loading package NUMERIC_STD
+-- Compiling entity shared_ram_ivar
+-- Compiling architecture byte_data_ram_a of shared_ram_ivar
+-- Compiling entity pulse_synchronizer
+-- Compiling architecture RTL of pulse_synchronizer
+-- Loading entity double_synchronizer
+-- Loading package MATH_REAL
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_intc_v4_1\hdl\axi_intc_v4_1_vh_rfs.vhd(715): VHDL Compiler exiting
+End time: 13:55:55 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_msg_v1_0_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:04 on Nov 28,2019
+vcom -64 -93 -work axi_msg_v1_0_1 -f C:\Users\Administrator\Desktop\wjg/axi_msg_v1_0_1/.cxl.vhdl.axi_msg_v1_0_1.axi_msg_v1_0_1.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package axi_msg_pkg
+-- Compiling package body axi_msg_pkg
+-- Loading package axi_msg_pkg
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package axi_msg_pkg
+** Error: (vcom-11) Could not find lib_fifo_v1_0_10.sync_fifo_fg.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_msg_v1_0\hdl\axi_msg_v1_0_rfs.vhd(223): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_10.sync_fifo_fg".
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_msg_v1_0\hdl\axi_msg_v1_0_rfs.vhd(228): VHDL Compiler exiting
+End time: 13:56:04 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 7, Warnings: 1
+
+==============================================================================
+Library 'axi_mcdma_v1_0_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:07 on Nov 28,2019
+vcom -64 -93 -work axi_mcdma_v1_0_1 -f C:\Users\Administrator\Desktop\wjg/axi_mcdma_v1_0_1/.cxl.vhdl.axi_mcdma_v1_0_1.axi_mcdma_v1_0_1.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling package axi_mcdma_pkg
+-- Compiling package body axi_mcdma_pkg
+-- Loading package axi_mcdma_pkg
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package axi_mcdma_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_mcdma_v1_0\hdl\axi_mcdma_v1_0_vh_rfs.vhd(551): VHDL Compiler exiting
+End time: 13:56:07 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_pcie_v2_8_7' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:16 on Nov 28,2019
+vcom -64 -93 -work axi_pcie_v2_8_7 -f C:\Users\Administrator\Desktop\wjg/axi_pcie_v2_8_7/.cxl.vhdl.axi_pcie_v2_8_7.axi_pcie_v2_8_7.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(77): VHDL Compiler exiting
+End time: 13:56:16 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_quad_spi_v3_2_14' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:28 on Nov 28,2019
+vcom -64 -93 -work axi_quad_spi_v3_2_14 -f C:\Users\Administrator\Desktop\wjg/axi_quad_spi_v3_2_14/.cxl.vhdl.axi_quad_spi_v3_2_14.axi_quad_spi_v3_2_14.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package comp_defs
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity soft_reset
+-- Compiling architecture implementation of soft_reset
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_quad_spi_v3_2\hdl\axi_quad_spi_v3_2_rfs.vhd(1148): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+-- Loading package ipif_pkg
+** Error: (vcom-11) Could not find lib_fifo_v1_0_10.async_fifo_fg.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_quad_spi_v3_2\hdl\axi_quad_spi_v3_2_rfs.vhd(1151): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_10.async_fifo_fg".
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_quad_spi_v3_2\hdl\axi_quad_spi_v3_2_rfs.vhd(1153): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_quad_spi_v3_2\hdl\axi_quad_spi_v3_2_rfs.vhd(1161): VHDL Compiler exiting
+End time: 13:56:29 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 11, Warnings: 1
+
+==============================================================================
+Library 'axi_tft_v2_0_19' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:31 on Nov 28,2019
+vcom -64 -93 -work axi_tft_v2_0_19 -f C:\Users\Administrator\Desktop\wjg/axi_tft_v2_0_19/.cxl.vhdl.axi_tft_v2_0_19.axi_tft_v2_0_19.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_tft_v2_0\hdl\axi_tft_v2_0_rfs.vhd(112): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+-- Loading package NUMERIC_STD
+-- Loading entity axi_master_burst_reset
+-- Loading entity axi_master_burst_stbs_set
+-- Loading entity axi_master_burst_first_stb_offset
+-- Loading entity axi_master_burst_cmd_status
+-- Loading entity axi_master_burst_strb_gen
+-- Loading entity axi_master_burst_pcc
+-- Loading package lib_pkg
+-- Loading entity srl_fifo_f
+-- Loading entity axi_master_burst_fifo
+-- Loading entity axi_master_burst_addr_cntl
+-- Loading entity axi_master_burst_rdmux
+-- Loading entity axi_master_burst_rddata_cntl
+-- Loading entity axi_master_burst_wrdata_cntl
+-- Loading entity axi_master_burst_rd_status_cntl
+-- Loading entity axi_master_burst_wr_status_cntl
+-- Loading entity axi_master_burst_skid_buf
+-- Loading entity axi_master_burst_wr_demux
+-- Loading entity axi_master_burst_skid2mm_buf
+-- Loading entity axi_master_burst_rd_wr_cntlr
+-- Loading entity axi_master_burst_rd_llink
+-- Loading entity axi_master_burst_wr_llink
+-- Loading entity axi_master_burst
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_tft_v2_0\hdl\axi_tft_v2_0_rfs.vhd(256): VHDL Compiler exiting
+End time: 13:56:31 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'axi_timebase_wdt_v3_0_7' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:37 on Nov 28,2019
+vcom -64 -93 -work axi_timebase_wdt_v3_0_7 -f C:\Users\Administrator\Desktop\wjg/axi_timebase_wdt_v3_0_7/.cxl.vhdl.axi_timebase_wdt_v3_0_7.axi_timebase_wdt_v3_0_7.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity window_wdt_counter
+-- Compiling architecture wc_imp of window_wdt_counter
+-- Compiling entity window_wdt_fail_cnt
+-- Compiling architecture fc_imp of window_wdt_fail_cnt
+-- Compiling entity timebase_wdt_core
+-- Compiling architecture imp of timebase_wdt_core
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timebase_wdt_v3_0\hdl\axi_timebase_wdt_v3_0_vh_rfs.vhd(796): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timebase_wdt_v3_0\hdl\axi_timebase_wdt_v3_0_vh_rfs.vhd(796): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timebase_wdt_v3_0\hdl\axi_timebase_wdt_v3_0_vh_rfs.vhd(1090): VHDL Compiler exiting
+End time: 13:56:37 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 4, Warnings: 1
+
+==============================================================================
+Library 'axi_timer_v2_0_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:40 on Nov 28,2019
+vcom -64 -93 -work axi_timer_v2_0_17 -f C:\Users\Administrator\Desktop\wjg/axi_timer_v2_0_17/.cxl.vhdl.axi_timer_v2_0_17.axi_timer_v2_0_17.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity mux_onehot_f
+-- Compiling architecture imp of mux_onehot_f
+-- Compiling package TC_Types
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+-- Loading package lib_pkg
+-- Loading package TC_Types
+-- Compiling entity timer_control
+-- Compiling architecture imp of timer_control
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1090): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1090): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1163): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1163): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1184): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1184): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(1285): VHDL Compiler exiting
+End time: 13:56:41 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 10, Warnings: 1
+
+==============================================================================
+Library 'axi_uart16550_v2_0_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:56 on Nov 28,2019
+vcom -64 -93 -work axi_uart16550_v2_0_17 -f C:\Users\Administrator\Desktop\wjg/axi_uart16550_v2_0_17/.cxl.vhdl.axi_uart16550_v2_0_17.axi_uart16550_v2_0_17.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rx_fifo_control
+-- Compiling architecture implementation of rx_fifo_control
+-- Compiling entity xuart_tx_load_sm
+-- Compiling architecture implementation of xuart_tx_load_sm
+-- Loading package NUMERIC_STD
+-- Loading package lib_pkg
+-- Loading entity srl_fifo_rbu_f
+-- Compiling entity tx_fifo_block
+-- Compiling architecture implementation of tx_fifo_block
+-- Compiling entity tx16550
+-- Compiling architecture implementation of tx16550
+-- Compiling entity rx_fifo_block
+-- Compiling architecture implementation of rx_fifo_block
+-- Loading entity rx_fifo_control
+-- Compiling entity rx16550
+-- Compiling architecture implementation of rx16550
+-- Loading entity xuart_tx_load_sm
+-- Loading entity rx16550
+-- Loading entity tx16550
+-- Loading entity tx_fifo_block
+-- Loading entity rx_fifo_block
+-- Compiling entity uart16550
+-- Compiling architecture implementation of uart16550
+-- Compiling entity ipic_if
+-- Compiling architecture imp of ipic_if
+-- Loading entity uart16550
+-- Loading entity ipic_if
+-- Compiling entity xuart
+-- Compiling architecture imp of xuart
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uart16550_v2_0\hdl\axi_uart16550_v2_0_vh_rfs.vhd(4326): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uart16550_v2_0\hdl\axi_uart16550_v2_0_vh_rfs.vhd(4326): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uart16550_v2_0\hdl\axi_uart16550_v2_0_vh_rfs.vhd(4384): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uart16550_v2_0\hdl\axi_uart16550_v2_0_vh_rfs.vhd(4384): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uart16550_v2_0\hdl\axi_uart16550_v2_0_vh_rfs.vhd(4425): VHDL Compiler exiting
+End time: 13:56:56 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 7, Warnings: 1
+
+==============================================================================
+Library 'axi_uartlite_v2_0_19' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:56:59 on Nov 28,2019
+vcom -64 -93 -work axi_uartlite_v2_0_19 -f C:\Users\Administrator\Desktop\wjg/axi_uartlite_v2_0_19/.cxl.vhdl.axi_uartlite_v2_0_19.axi_uartlite_v2_0_19.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling entity dynshreg_i_f
+-- Compiling architecture behavioral of dynshreg_i_f
+-- Loading entity srl_fifo_f
+-- Compiling entity uartlite_tx
+-- Compiling architecture RTL of uartlite_tx
+-- Loading entity dynshreg_i_f
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uartlite_v2_0\hdl\axi_uartlite_v2_0_vh_rfs.vhd(832): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_uartlite_v2_0\hdl\axi_uartlite_v2_0_vh_rfs.vhd(881): VHDL Compiler exiting
+End time: 13:56:59 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'axi_usb2_device_v5_0_16' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:57:02 on Nov 28,2019
+vcom -64 -93 -work axi_usb2_device_v5_0_16 -f C:\Users\Administrator\Desktop\wjg/axi_usb2_device_v5_0_16/.cxl.vhdl.axi_usb2_device_v5_0_16.axi_usb2_device_v5_0_16.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3763): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3763): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3784): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3784): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3805): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3805): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3826): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3826): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3847): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(3847): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4041): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4041): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4072): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4072): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4094): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4094): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4216): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4216): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4237): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4237): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4258): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4258): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4279): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4279): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4323): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4323): in protected region
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4380): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4380): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_usb2_device_v5_0\hdl\axi_usb2_device_v5_0_rfs.vhd(4514): VHDL Compiler exiting
+End time: 13:57:02 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 57, Warnings: 1
+
+==============================================================================
+Library 'axi_vdma_v6_3_3' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:57:11 on Nov 28,2019
+vcom -64 -93 -work axi_vdma_v6_3_3 -f C:\Users\Administrator\Desktop\wjg/axi_vdma_v6_3_3/.cxl.vhdl.axi_vdma_v6_3_3.axi_vdma_v6_3_3.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package axi_sg_pkg
+-- Compiling package body axi_sg_pkg
+-- Loading package axi_sg_pkg
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+-- Loading package axi_sg_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_vdma_v6_3\hdl\axi_vdma_v6_3_rfs.vhd(332): VHDL Compiler exiting
+End time: 13:57:11 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'axi_vfifo_ctrl_v2_0_17' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:57:32 on Nov 28,2019
+vcom -64 -93 -work axi_vfifo_ctrl_v2_0_17 -f C:\Users\Administrator\Desktop\wjg/axi_vfifo_ctrl_v2_0_17/.cxl.vhdl.axi_vfifo_ctrl_v2_0_17.axi_vfifo_ctrl_v2_0_17.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\axi_vfifo_ctrl_v2_0\hdl\axi_vfifo_ctrl_v2_0_rfs.vhd(134): VHDL Compiler exiting
+End time: 13:57:32 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'can_v5_0_18' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:57:44 on Nov 28,2019
+vcom -64 -93 -work can_v5_0_18 -f C:\Users\Administrator\Desktop\wjg/can_v5_0_18/.cxl.vhdl.can_v5_0_18.can_v5_0_18.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\can_v5_0\hdl\can_v5_0_rfs.vhd(2711): VHDL Compiler exiting
+End time: 13:57:45 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'displayport_v7_0_7' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:58:51 on Nov 28,2019
+vcom -64 -93 -work displayport_v7_0_7 -f C:\Users\Administrator\Desktop\wjg/displayport_v7_0_7/.cxl.vhdl.displayport_v7_0_7.displayport_v7_0_7.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\displayport_v7_0\hdl\displayport_v7_0_rfs.vhd(10053): VHDL Compiler exiting
+End time: 13:58:52 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'g709_fec_v2_3_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:59:49 on Nov 28,2019
+vcom -64 -93 -work g709_fec_v2_3_1 -f C:\Users\Administrator\Desktop\wjg/g709_fec_v2_3_1/.cxl.vhdl.g709_fec_v2_3_1.g709_fec_v2_3_1.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\g709_fec_v2_3\hdl\g709_fec_v2_3_vh_rfs.vhd(16094): VHDL Compiler exiting
+End time: 13:59:50 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'g975_efec_i7_v2_0_16' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 13:59:56 on Nov 28,2019
+vcom -64 -93 -work g975_efec_i7_v2_0_16 -f C:\Users\Administrator\Desktop\wjg/g975_efec_i7_v2_0_16/.cxl.vhdl.g975_efec_i7_v2_0_16.g975_efec_i7_v2_0_16.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\g975_efec_i7_v2_0\hdl\g975_efec_i7_v2_0_vh_rfs.vhd(32936): VHDL Compiler exiting
+End time: 13:59:57 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'ldpc_v1_0_1' compilation error(s)
+==============================================================================
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:00:18 on Nov 28,2019
+vlog -64 -L fec_5g_common_v1_0_0 -L ldpc_v1_0_1 "+incdir+C:\Users\Administrator\Desktop\wjg\demosaic\.cxl.ip/incl" -sv -work ldpc_v1_0_1 -f C:\Users\Administrator\Desktop\wjg/ldpc_v1_0_1/.cxl.systemverilog.ldpc_v1_0_1.ldpc_v1_0_1.nt64.cmf 
+** Error: (vlog-13069) C:/Xilinx/Vivado/2017.4/data/ip/xilinx/ldpc_v1_0/hdl/ldpc_v1_0_rfs.sv(64): syntax error in protected region.
+
+End time: 14:00:18 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 2, Warnings: 1
+
+==============================================================================
+Library 'lte_rach_detector_v3_1_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:00:53 on Nov 28,2019
+vcom -64 -93 -work lte_rach_detector_v3_1_1 -f C:\Users\Administrator\Desktop\wjg/lte_rach_detector_v3_1_1/.cxl.vhdl.lte_rach_detector_v3_1_1.lte_rach_detector_v3_1_1.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\lte_rach_detector_v3_1\hdl\lte_rach_detector_v3_1_vh_rfs.vhd(7241): VHDL Compiler exiting
+End time: 14:00:54 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'mailbox_v2_1_8' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:00 on Nov 28,2019
+vcom -64 -93 -work mailbox_v2_1_8 -f C:\Users\Administrator\Desktop\wjg/mailbox_v2_1_8/.cxl.vhdl.mailbox_v2_1_8.mailbox_v2_1_8.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Sync_BRAM
+-- Compiling architecture syn of Sync_BRAM
+-- Compiling entity Sync_DPRAM
+-- Compiling architecture syn of Sync_DPRAM
+-- Compiling entity Sync_FIFO
+-- Compiling architecture VHDL_RTL of Sync_FIFO
+-- Compiling entity Async_FIFO
+-- Compiling architecture IMP of Async_FIFO
+-- Loading entity Sync_FIFO
+-- Loading entity Async_FIFO
+-- Compiling entity fsl_v20
+-- Compiling architecture IMP of fsl_v20
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\mailbox_v2_1\hdl\mailbox_v2_1_vh_rfs.vhd(1970): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\mailbox_v2_1\hdl\mailbox_v2_1_vh_rfs.vhd(1973): VHDL Compiler exiting
+End time: 14:01:00 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'mdm_v3_2_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:03 on Nov 28,2019
+vcom -64 -93 -work mdm_v3_2_12 -f C:\Users\Administrator\Desktop\wjg/mdm_v3_2_12/.cxl.vhdl.mdm_v3_2_12.mdm_v3_2_12.nt64.cmf 
+-- Loading package STANDARD
+-- Compiling package mdm_funcs
+-- Compiling package body mdm_funcs
+-- Loading package mdm_funcs
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mdm_funcs
+-- Compiling entity MB_BSCANE2
+-- Compiling architecture IMP of MB_BSCANE2
+-- Compiling entity MB_BUFG
+-- Compiling architecture IMP of MB_BUFG
+-- Compiling entity MB_BUFGCTRL
+-- Compiling architecture IMP of MB_BUFGCTRL
+-- Compiling entity MB_FDRE
+-- Compiling architecture IMP of MB_FDRE
+-- Compiling entity MB_PLLE2_BASE
+-- Compiling architecture IMP of MB_PLLE2_BASE
+-- Compiling entity MB_FDC_1
+-- Compiling architecture IMP of MB_FDC_1
+-- Compiling entity MB_FDRE_1
+-- Compiling architecture IMP of MB_FDRE_1
+-- Compiling entity MB_SRL16E
+-- Loading package NUMERIC_STD
+-- Compiling architecture IMP of MB_SRL16E
+-- Compiling entity MB_FDRSE
+-- Compiling architecture IMP of MB_FDRSE
+-- Compiling entity MB_MUXCY_XORCY
+-- Compiling architecture IMP of MB_MUXCY_XORCY
+-- Compiling entity MB_MUXCY
+-- Compiling architecture IMP of MB_MUXCY
+-- Compiling entity MB_XORCY
+-- Compiling architecture IMP of MB_XORCY
+-- Compiling entity MB_SRLC32E
+-- Compiling architecture IMP of MB_SRLC32E
+-- Compiling entity carry_and
+-- Compiling architecture IMP of carry_and
+-- Compiling entity carry_or_vec
+-- Compiling architecture IMP of carry_or_vec
+-- Compiling entity carry_or
+-- Compiling architecture IMP of carry_or
+-- Compiling entity select_bit
+-- Compiling architecture IMP of select_bit
+-- Compiling entity Arbiter
+-- Compiling architecture IMP of Arbiter
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Compiling entity bus_master
+-- Compiling architecture IMP of bus_master
+-- Compiling entity JTAG_CONTROL
+-- Loading entity SRL_FIFO
+-- Compiling architecture IMP of JTAG_CONTROL
+-- Compiling entity MDM_Core
+-- Compiling architecture IMP of MDM_CORE
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\mdm_v3_2\hdl\mdm_v3_2_vh_rfs.vhd(12359): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\mdm_v3_2\hdl\mdm_v3_2_vh_rfs.vhd(12362): VHDL Compiler exiting
+End time: 14:01:03 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'axi_lite_ipif_v3_0' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:15 on Nov 28,2019
+vcom -64 -93 -work axi_lite_ipif_v3_0 -f C:\Users\Administrator\Desktop\wjg/axi_lite_ipif_v3_0/.cxl.vhdl.axi_lite_ipif_v3_0.axi_lite_ipif_v3_0.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package ipif_pkg
+-- Compiling package body ipif_pkg
+-- Loading package ipif_pkg
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Loading package ipif_pkg
+-- Compiling entity address_decoder
+-- Compiling architecture IMP of address_decoder
+-- Loading entity pselect_f
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "SYNOPSYS".
+-- Loading package std_logic_misc
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "CLOSELY_RELATED_TCF" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\microblaze_mcs_v2_3\pcores\axi_lite_ipif_v3_0\hdl\vhdl\slave_attachment.vhd(166): VHDL Compiler exiting
+End time: 14:01:15 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'mdm_v3_2' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:18 on Nov 28,2019
+vcom -64 -93 -work mdm_v3_2 -f C:\Users\Administrator\Desktop\wjg/mdm_v3_2/.cxl.vhdl.mdm_v3_2.mdm_v3_2.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity carry_and
+-- Compiling architecture IMP of carry_and
+-- Compiling entity carry_or_vec
+-- Compiling architecture IMP of carry_or_vec
+-- Compiling entity carry_or
+-- Compiling architecture IMP of carry_or
+-- Loading package NUMERIC_STD
+-- Compiling entity select_bit
+-- Compiling architecture IMP of select_bit
+-- Compiling entity Arbiter
+-- Compiling architecture IMP of Arbiter
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Compiling entity bus_master
+-- Compiling architecture IMP of bus_master
+-- Compiling entity JTAG_CONTROL
+-- Loading entity SRL_FIFO
+-- Compiling architecture IMP of JTAG_CONTROL
+-- Compiling entity MDM_Core
+-- Compiling architecture IMP of MDM_CORE
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\microblaze_mcs_v2_3\pcores\mdm_v3_2\hdl\vhdl\mdm.vhd(101): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0.axi_lite_ipif".
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\microblaze_mcs_v2_3\pcores\mdm_v3_2\hdl\vhdl\mdm.vhd(104): VHDL Compiler exiting
+End time: 14:01:19 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'microblaze_mcs_v2_3_6' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:21 on Nov 28,2019
+vcom -64 -93 -work microblaze_mcs_v2_3_6 -f C:\Users\Administrator\Desktop\wjg/microblaze_mcs_v2_3_6/.cxl.vhdl.microblaze_mcs_v2_3_6.microblaze_mcs_v2_3_6.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find mdm_v3_2.mdm.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\microblaze_mcs_v2_3\hdl\microblaze_mcs.vhd(86): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\microblaze_mcs_v2_3\hdl\microblaze_mcs.vhd(91): VHDL Compiler exiting
+End time: 14:01:22 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 4, Warnings: 1
+
+==============================================================================
+Library 'prc_v1_2_1' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:24 on Nov 28,2019
+vcom -64 -93 -work prc_v1_2_1 -f C:\Users\Administrator\Desktop\wjg/prc_v1_2_1/.cxl.vhdl.prc_v1_2_1.prc_v1_2_1.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\prc_v1_2\hdl\prc_v1_2_rfs.vhd(1627): VHDL Compiler exiting
+End time: 14:01:25 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'proc_sys_reset_v5_0_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:30 on Nov 28,2019
+vcom -64 -93 -work proc_sys_reset_v5_0_12 -f C:\Users\Administrator\Desktop\wjg/proc_sys_reset_v5_0_12/.cxl.vhdl.proc_sys_reset_v5_0_12.proc_sys_reset_v5_0_12.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity upcnt_n
+-- Compiling architecture imp of upcnt_n
+-- Compiling entity sequence_psr
+-- Compiling architecture imp of sequence_psr
+-- Loading entity upcnt_n
+-- Compiling entity lpf
+-- Compiling architecture imp of lpf
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(939): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(939): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(970): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(970): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(1001): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(1001): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(1031): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(1031): Unknown expanded name.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\proc_sys_reset_v5_0\hdl\proc_sys_reset_v5_0_vh_rfs.vhd(1120): VHDL Compiler exiting
+End time: 14:01:31 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 13, Warnings: 1
+
+==============================================================================
+Library 'pr_decoupler_v1_0_5' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:33 on Nov 28,2019
+vcom -64 -93 -work pr_decoupler_v1_0_5 -f C:\Users\Administrator\Desktop\wjg/pr_decoupler_v1_0_5/.cxl.vhdl.pr_decoupler_v1_0_5.pr_decoupler_v1_0_5.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\pr_decoupler_v1_0\hdl\pr_decoupler_v1_0_vh_rfs.vhd(111): VHDL Compiler exiting
+End time: 14:01:34 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'spdif_v2_0_18' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:01:55 on Nov 28,2019
+vcom -64 -93 -work spdif_v2_0_18 -f C:\Users\Administrator\Desktop\wjg/spdif_v2_0_18/.cxl.vhdl.spdif_v2_0_18.spdif_v2_0_18.nt64.cmf 
+-- Loading package STANDARD
+** Error (suppressible): (vcom-19) Failed to access library 'synopsys' at "synopsys".
+No such file or directory. (errno = ENOENT)
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(20): (vcom-1598) Library "synopsys" not found.
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(21): (vcom-1136) Unknown identifier "<protected>".
+** Error: vhdl_src/synopsys/mti_std_logic_misc.vhd(59): (vcom-1138) Attribute "<protected>" has not been declared.
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\spdif_v2_0\hdl\spdif_v2_0_vh_rfs.vhd(932): VHDL Compiler exiting
+End time: 14:01:55 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 6, Warnings: 1
+
+==============================================================================
+Library 'tmr_sem_v1_0_3' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:20 on Nov 28,2019
+vcom -64 -93 -work tmr_sem_v1_0_3 -f C:\Users\Administrator\Desktop\wjg/tmr_sem_v1_0_3/.cxl.vhdl.tmr_sem_v1_0_3.tmr_sem_v1_0_3.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Compiling entity Divide_part
+-- Loading package NUMERIC_STD
+-- Compiling architecture VHDL_RTL of Divide_part
+-- Compiling entity FIT_Module
+-- Compiling architecture VHDL_RTL of FIT_Module
+-- Compiling entity UART_Receive
+-- Compiling architecture IMP of UART_Receive
+-- Compiling entity UART_Transmit
+-- Compiling architecture IMP of UART_Transmit
+-- Compiling entity tmr_sem
+** Error: (vcom-11) Could not find axi_lite_ipif_v3_0_4.axi_lite_ipif.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\tmr_sem_v1_0\hdl\tmr_sem_v1_0_rfs.vhd(1898): (vcom-1195) Cannot find expanded name "axi_lite_ipif_v3_0_4.axi_lite_ipif".
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\tmr_sem_v1_0\hdl\tmr_sem_v1_0_rfs.vhd(1901): VHDL Compiler exiting
+End time: 14:02:20 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'v_ccm_v6_0_14' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:41 on Nov 28,2019
+vcom -64 -93 -work v_ccm_v6_0_14 -f C:\Users\Administrator\Desktop\wjg/v_ccm_v6_0_14/.cxl.vhdl.v_ccm_v6_0_14.v_ccm_v6_0_14.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ccm_v6_0\hdl\v_ccm_v6_0_vh_rfs.vhd(6472): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ccm_v6_0\hdl\v_ccm_v6_0_vh_rfs.vhd(6472): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ccm_v6_0\hdl\v_ccm_v6_0_vh_rfs.vhd(6550): VHDL Compiler exiting
+End time: 14:02:42 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_cfa_v7_0_13' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:44 on Nov 28,2019
+vcom -64 -93 -work v_cfa_v7_0_13 -f C:\Users\Administrator\Desktop\wjg/v_cfa_v7_0_13/.cxl.vhdl.v_cfa_v7_0_13.v_cfa_v7_0_13.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cfa_v7_0\hdl\v_cfa_v7_0_vh_rfs.vhd(7598): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cfa_v7_0\hdl\v_cfa_v7_0_vh_rfs.vhd(7598): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cfa_v7_0\hdl\v_cfa_v7_0_vh_rfs.vhd(7673): VHDL Compiler exiting
+End time: 14:02:45 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_cresample_v4_0_13' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:47 on Nov 28,2019
+vcom -64 -93 -work v_cresample_v4_0_13 -f C:\Users\Administrator\Desktop\wjg/v_cresample_v4_0_13/.cxl.vhdl.v_cresample_v4_0_13.v_cresample_v4_0_13.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cresample_v4_0\hdl\v_cresample_v4_0_vh_rfs.vhd(9861): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cresample_v4_0\hdl\v_cresample_v4_0_vh_rfs.vhd(9861): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_cresample_v4_0\hdl\v_cresample_v4_0_vh_rfs.vhd(9930): VHDL Compiler exiting
+End time: 14:02:48 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_dual_splitter_v1_0_8' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:50 on Nov 28,2019
+vcom -64 -93 -work v_dual_splitter_v1_0_8 -f C:\Users\Administrator\Desktop\wjg/v_dual_splitter_v1_0_8/.cxl.vhdl.v_dual_splitter_v1_0_8.v_dual_splitter_v1_0_8.nt64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find fifo_generator_v13_0_6.fifo_generator_v13_0_6.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_dual_splitter_v1_0\hdl\v_dual_splitter_v1_0_rfs.vhd(57): (vcom-1195) Cannot find expanded name "fifo_generator_v13_0_6.fifo_generator_v13_0_6".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_dual_splitter_v1_0\hdl\v_dual_splitter_v1_0_rfs.vhd(59): VHDL Compiler exiting
+End time: 14:02:50 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 1
+
+==============================================================================
+Library 'v_enhance_v8_0_14' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:02:56 on Nov 28,2019
+vcom -64 -93 -work v_enhance_v8_0_14 -f C:\Users\Administrator\Desktop\wjg/v_enhance_v8_0_14/.cxl.vhdl.v_enhance_v8_0_14.v_enhance_v8_0_14.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_enhance_v8_0\hdl\v_enhance_v8_0_vh_rfs.vhd(27708): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_enhance_v8_0\hdl\v_enhance_v8_0_vh_rfs.vhd(27708): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_enhance_v8_0\hdl\v_enhance_v8_0_vh_rfs.vhd(27777): VHDL Compiler exiting
+End time: 14:02:58 on Nov 28,2019, Elapsed time: 0:00:02
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_gamma_v7_0_14' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:03:00 on Nov 28,2019
+vcom -64 -93 -work v_gamma_v7_0_14 -f C:\Users\Administrator\Desktop\wjg/v_gamma_v7_0_14/.cxl.vhdl.v_gamma_v7_0_14.v_gamma_v7_0_14.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_gamma_v7_0\hdl\v_gamma_v7_0_vh_rfs.vhd(8292): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_gamma_v7_0\hdl\v_gamma_v7_0_vh_rfs.vhd(8292): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_gamma_v7_0\hdl\v_gamma_v7_0_vh_rfs.vhd(8366): VHDL Compiler exiting
+End time: 14:03:00 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_osd_v6_0_15' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:03:03 on Nov 28,2019
+vcom -64 -93 -work v_osd_v6_0_15 -f C:\Users\Administrator\Desktop\wjg/v_osd_v6_0_15/.cxl.vhdl.v_osd_v6_0_15.v_osd_v6_0_15.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.video_ctrl.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_osd_v6_0\hdl\v_osd_v6_0_vh_rfs.vhd(20463): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_osd_v6_0\hdl\v_osd_v6_0_vh_rfs.vhd(20463): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_osd_v6_0\hdl\v_osd_v6_0_vh_rfs.vhd(20876): VHDL Compiler exiting
+End time: 14:03:03 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_rgb2ycrcb_v7_1_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:03:06 on Nov 28,2019
+vcom -64 -93 -work v_rgb2ycrcb_v7_1_12 -f C:\Users\Administrator\Desktop\wjg/v_rgb2ycrcb_v7_1_12/.cxl.vhdl.v_rgb2ycrcb_v7_1_12.v_rgb2ycrcb_v7_1_12.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_rgb2ycrcb_v7_1\hdl\v_rgb2ycrcb_v7_1_vh_rfs.vhd(6230): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_rgb2ycrcb_v7_1\hdl\v_rgb2ycrcb_v7_1_vh_rfs.vhd(6230): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_rgb2ycrcb_v7_1\hdl\v_rgb2ycrcb_v7_1_vh_rfs.vhd(6303): VHDL Compiler exiting
+End time: 14:03:06 on Nov 28,2019, Elapsed time: 0:00:00
+Errors: 5, Warnings: 1
+
+==============================================================================
+Library 'v_ycrcb2rgb_v7_1_12' compilation error(s)
+==============================================================================
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+Start time: 14:03:12 on Nov 28,2019
+vcom -64 -93 -work v_ycrcb2rgb_v7_1_12 -f C:\Users\Administrator\Desktop\wjg/v_ycrcb2rgb_v7_1_12/.cxl.vhdl.v_ycrcb2rgb_v7_1_12.v_ycrcb2rgb_v7_1_12.nt64.cmf 
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find v_tc_v6_1_12.debug.
+** Error (suppressible): C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ycrcb2rgb_v7_1\hdl\v_ycrcb2rgb_v7_1_vh_rfs.vhd(6169): (vcom-1195) Cannot find expanded name "<protected>.<protected>".
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ycrcb2rgb_v7_1\hdl\v_ycrcb2rgb_v7_1_vh_rfs.vhd(6169): in protected region
+** Error: C:\Xilinx\Vivado\2017.4\data\ip\xilinx\v_ycrcb2rgb_v7_1\hdl\v_ycrcb2rgb_v7_1_vh_rfs.vhd(6242): VHDL Compiler exiting
+End time: 14:03:13 on Nov 28,2019, Elapsed time: 0:00:01
+Errors: 5, Warnings: 1
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Nov 29 11:46:58 2019
+# Process ID: 5468
+# Current directory: C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_2/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_2/behav/xsim/xsim.dir/demosaic_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_2/behav/xsim/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_2/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_2/behav/xsim/xsim.dir/demosaic_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace

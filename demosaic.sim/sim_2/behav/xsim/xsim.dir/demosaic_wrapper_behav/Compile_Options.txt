@@ -1,0 +1,1 @@
+-wto "e1157ae8547f47c8bfcf1189781d8b52" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xbip_utils_v3_0_8" -L "c_reg_fd_v12_0_4" -L "c_mux_bit_v12_0_4" -L "c_shift_ram_v12_0_11" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "demosaic_wrapper_behav" "xil_defaultlib.demosaic_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/wjg/demosaic/tb_calG_RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_calG_RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_getBayer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demosaic_getBayer
+INFO: [VRFC 10-2458] undeclared symbol O_VSYNC, assumed default net type wire [C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_getBayer.v:25]
+INFO: [VRFC 10-2458] undeclared symbol O_HSYNC, assumed default net type wire [C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_getBayer.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_pre_G_RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demosaic_pre_G_RB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_calG_RB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demosaic_calG_RB
+ERROR: [VRFC 10-1020] missing compiler directive [C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_calG_RB.v:391]
+ERROR: [VRFC 10-1040] module Demosaic_calG_RB ignored due to previous errors [C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_calG_RB.v:2]

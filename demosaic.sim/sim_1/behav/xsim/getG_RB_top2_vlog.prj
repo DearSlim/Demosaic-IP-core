@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Demosaic_calG_RB.v" \
+"../../../../Demosaic_pre_G_RB.v" \
+"../../../../Demosaic_tb_writeG_RB.v" \
+"../../../../getG_RB_top_2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

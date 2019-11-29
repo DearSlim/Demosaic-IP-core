@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="demosaic_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="demosaic_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16605000000fs"></ZoomStartTime>
+      <ZoomEndTime time="16906000001fs"></ZoomEndTime>
+      <Cursor1Time time="16742400000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_tb_writeG_RB_0/inst/INCLK" type="logic">
+      <obj_property name="ElementShortName">INCLK</obj_property>
+      <obj_property name="ObjectShortName">INCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_getBayer_0/inst/cal_en" type="logic">
+      <obj_property name="ElementShortName">cal_en</obj_property>
+      <obj_property name="ObjectShortName">cal_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/inst/cntCol" type="array">
+      <obj_property name="ElementShortName">cntCol[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cntCol[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_getBayer_0/inst/O_DATA" type="array">
+      <obj_property name="ElementShortName">O_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">O_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/UU" type="array">
+      <obj_property name="ElementShortName">UU[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UU[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/UPDATA" type="array">
+      <obj_property name="ElementShortName">UPDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UPDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/MID" type="array">
+      <obj_property name="ElementShortName">MID[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MID[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/DOWNDATA" type="array">
+      <obj_property name="ElementShortName">DOWNDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DOWNDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/DD" type="array">
+      <obj_property name="ElementShortName">DD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/LL" type="array">
+      <obj_property name="ElementShortName">LL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LL[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/LEFTDATA" type="array">
+      <obj_property name="ElementShortName">LEFTDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LEFTDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/RIGHTDATA" type="array">
+      <obj_property name="ElementShortName">RIGHTDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RIGHTDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/RR" type="array">
+      <obj_property name="ElementShortName">RR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demosaic_wrapper/demosaic_i/Demosaic_pre_G_RB_0/O_EN" type="logic">
+      <obj_property name="ElementShortName">O_EN</obj_property>
+      <obj_property name="ObjectShortName">O_EN</obj_property>
+   </wvobject>
+</wave_config>

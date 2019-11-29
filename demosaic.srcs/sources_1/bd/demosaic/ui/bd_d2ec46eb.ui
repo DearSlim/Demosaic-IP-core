@@ -1,0 +1,42 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace inst c_shift_ram_6 -pg 1 -lvl 3 -y -130 -defaultsOSRD
+preplace inst c_shift_ram_7 -pg 1 -lvl 3 -y -250 -defaultsOSRD
+preplace inst c_shift_ram_8 -pg 1 -lvl 3 -y -360 -defaultsOSRD
+preplace inst c_shift_ram_9 -pg 1 -lvl 3 -y -470 -defaultsOSRD
+preplace inst tb_calG_RB_0 -pg 1 -lvl 1 -y -450 -defaultsOSRD
+preplace inst Demosaic_tb_writeG_RB_0 -pg 1 -lvl 6 -y -450 -defaultsOSRD
+preplace inst Demosaic_getBayer_0 -pg 1 -lvl 2 -y -450 -defaultsOSRD
+preplace inst Demosaic_calG_RB_0 -pg 1 -lvl 5 -y -500 -defaultsOSRD
+preplace inst Demosaic_pre_G_RB_0 -pg 1 -lvl 4 -y -480 -defaultsOSRD
+preplace inst c_shift_ram_3 -pg 1 -lvl 3 -y -590 -defaultsOSRD
+preplace netloc c_shift_ram_7_Q 1 2 2 -310 -70 -60
+preplace netloc Demosaic_getBayer_0_O_DATA 1 2 1 -340
+preplace netloc Demosaic_pre_G_RB_0_LL 1 4 1 300
+preplace netloc Demosaic_pre_G_RB_0_MID 1 4 1 340
+preplace netloc tb_calG_RB_0_VSYNC 1 1 1 -820
+preplace netloc c_shift_ram_6_Q 1 3 1 -70
+preplace netloc c_shift_ram_9_Q 1 2 2 -310 -190 -90
+preplace netloc Demosaic_calG_RB_0_O_DATA 1 5 1 710
+preplace netloc tb_calG_RB_0_O_DATA 1 1 1 N
+preplace netloc c_shift_ram_8_Q 1 2 2 -320 -60 -50
+preplace netloc Demosaic_pre_G_RB_0_O_EN 1 4 1 370
+preplace netloc c_shift_ram_3_Q 1 2 2 -310 -680 -80
+preplace netloc Demosaic_pre_G_RB_0_DOWNDATA 1 4 1 330
+preplace netloc Demosaic_getBayer_0_CAL_EN 1 2 2 -350 -660 -70J
+preplace netloc Demosaic_pre_G_RB_0_RR 1 4 1 290
+preplace netloc Demosaic_pre_G_RB_0_LEFTDATA 1 4 1 310
+preplace netloc tb_calG_RB_0_HSYNC 1 1 3 -830 -630 -340 -650 -90
+preplace netloc Demosaic_pre_G_RB_0_RIGHTDATA 1 4 1 280
+preplace netloc tb_calG_RB_0_CLK 1 1 5 -840 -540 -330 -530 -100 -620 360 -660 730
+preplace netloc Demosaic_pre_G_RB_0_UPDATA 1 4 1 350
+preplace netloc Demosaic_pre_G_RB_0_DD 1 4 1 320
+preplace netloc Demosaic_pre_G_RB_0_UU 1 4 1 360
+preplace netloc Demosaic_calG_RB_0_O_EN 1 5 1 720
+preplace netloc tb_calG_RB_0_RSTN 1 1 5 -850 -690 NJ -690 -50J -680 350 -680 740
+levelinfo -pg 1 -1110 -970 -520 -200 120 540 880 1090 -top -1270 -bot 430
+",
+}
+0

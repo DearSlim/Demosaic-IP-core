@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_calG_RB.v,1574837825,verilog,,C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_pre_G_RB.v,,Demosaic_calG_RB,,,,,,,,
+C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_pre_G_RB.v,1574843207,verilog,,C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_tb_writeG_RB.v,,Demosaic_pre_G_RB,,,,,,,,
+C:/Users/Administrator/Desktop/wjg/demosaic/Demosaic_tb_writeG_RB.v,1574906225,verilog,,C:/Users/Administrator/Desktop/wjg/demosaic/getG_RB_top_2.v,,Demosaic_tb_writeG_RB,,,,,,,,
+C:/Users/Administrator/Desktop/wjg/demosaic/demosaic.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Administrator/Desktop/wjg/demosaic/getG_RB_top_2.v,1574906276,verilog,,,,getG_RB_top2,,,,,,,,

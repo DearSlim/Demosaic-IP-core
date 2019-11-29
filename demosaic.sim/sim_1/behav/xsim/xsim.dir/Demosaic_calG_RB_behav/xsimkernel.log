@@ -1,0 +1,7 @@
+Running: xsim.dir/Demosaic_calG_RB_behav/xsimk.exe -simmode gui -wdb Demosaic_calG_RB_behav.wdb -simrunnum 0 -socket 55919
+Design successfully loaded
+Design Loading Memory Usage: 6304 KB (Peak: 6304 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 6944 KB (Peak: 6944 KB)
+Simulation CPU Usage: 31 ms

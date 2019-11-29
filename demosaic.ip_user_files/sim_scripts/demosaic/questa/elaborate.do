@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xbip_utils_v3_0_8 -L c_reg_fd_v12_0_4 -L c_mux_bit_v12_0_4 -L c_shift_ram_v12_0_11 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.demosaic xil_defaultlib.glbl -o demosaic_opt

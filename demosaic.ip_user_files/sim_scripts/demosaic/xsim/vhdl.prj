@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../../demosaic.srcs/sources_1/bd/demosaic/ip/demosaic_c_shift_ram_3_0/sim/demosaic_c_shift_ram_3_0.vhd" \
+"../../../../demosaic.srcs/sources_1/bd/demosaic/ip/demosaic_c_shift_ram_3_1/sim/demosaic_c_shift_ram_3_1.vhd" \
+"../../../../demosaic.srcs/sources_1/bd/demosaic/ip/demosaic_c_shift_ram_3_2/sim/demosaic_c_shift_ram_3_2.vhd" \
+"../../../../demosaic.srcs/sources_1/bd/demosaic/ip/demosaic_c_shift_ram_3_3/sim/demosaic_c_shift_ram_3_3.vhd" \
+"../../../../demosaic.srcs/sources_1/bd/demosaic/ip/demosaic_c_shift_ram_3_4/sim/demosaic_c_shift_ram_3_4.vhd" \
+
+nosort
